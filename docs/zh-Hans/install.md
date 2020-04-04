@@ -20,63 +20,63 @@ Zettlr 的安装非常简单，在每个操作系统上都操作简单。Zettlr 
 
 > 你也可以使用 [Homebrew](https://formulae.brew.sh/cask/zettlr) 来安装 Zettlr:`$ brew cask install zettlr`
 
-## Linux (Debian 8/Ubuntu 12.04/Fedora 21 或更新版本)
+## Linux (Debian 8/Ubuntu 12.04/Fedora 21 或较新版本)
 
 您可以通过 Linux 系统预设的的 `deb` 和 `rpm` 包。只需将软件包安装到系统上即可。
 
 无法检测语言。请手动选择。`/home/<your-user-name>/.config/Zettlr` 文件夹。
 
-## Updating the app
+## 软件升级
 
-The application checks for new updates each time you start the app. You can also manually trigger the search for updates by using the respective menu item from the Help-menu. If there is a new version available, Zettlr will show you a dialog that contains both the new version's number, your current version and a changelog with all features and bug fixes the new version contains. You can then open the download page to download the new package. Simply install it over your current installation, it will take care of removing the old version first. All data will be retained and migrated to the new version.
+每次启动应用时，应用程序都会检查新更新。您还可以使用「帮助」菜单中的相应选项手动更新。如果有新版本可用，Zettlr 将显示一个对话框，其中包含新版本的编号、当前版本以及包含了新功能和 Bug 修复的更改日志。然后，您可以打开下载页面以下载新安装包。你可以在现有版本下直接安装，安装程序会负责删除旧版本。所有数据都将保留并迁移到新版本。
 
-> If you are interested in cutting-edge releases, make sure to tick the checkbox "Notify me about beta releases" in the advanced tab of the preferences dialog!
+> 如果您对开发版本感兴趣，请确保在设置对话框的「进阶」选项卡中勾选复选框「通知有关测试版版本」！
 
-## Installing Pandoc
+## 安装 Pandoc
 
-What makes Zettlr interact with other software such as Microsoft Word, Wiki-systems or OpenOffice is an additional software package called `Pandoc`. Pandoc is free and Open Source and it allows you to use all exporting and importing features of Zettlr, making it the ideal choice to be the interface between other programs and co-workers who do not use Markdown.
+Zettlr 通过与一个名为 `Pandoc` 的附加软件包其他软件（如 Microsoft Word、Wiki 系统或 OpenOffice）交互。Pandoc 免费开源，它使得您能够使用 Zettlr 的所有导出和导入功能，是与其他程序及不使用 Markdown 的同事接入的理想选择。
 
-Installing Pandoc is easy on all platforms.
+在所有平台上安装 Pandoc 都很容易。
 
-> You can install Pandoc at any time. Simply use the menu item from the Help menu to open up the installation instructions.
+> 您可以随时安装 Pandoc。只需使用「应用菜单」菜单中的「帮助」项即可打开安装说明。
 
 ### Windows
 
-On Windows, Pandoc can be installed by visiting the [download page](https://github.com/jgm/pandoc/releases/latest) and retrieving the Windows installer. Simply execute it. Afterwards, it should be installed correctly. Try to export something. If it works, you're done!
+在 Windows 系统中, Pandoc 可以通过访问[下载页面](https://github.com/jgm/pandoc/releases/latest)获得 Windows 安装程序。只需执行该程序，随后即可正确安装它。您可以尝试导出一点内容，如果能正常工作，就完事了！
 
-> Please note that due to the fact that Pandoc is a CLI-program (Command Line Interface), it cannot show you whether or not there is an update available. You'll have to do this yourself. Simply visit the download page from time to time.
+> 请注意，由于 Pandoc 是 CLI 程序（命令行接口），因此无法显示是否有可用的更新。你必须自己进行更新：不时访问下载页面即可。
 
 ### macOS
 
-On macOS, Pandoc can be installed in a variety of ways.
+在 macOS 中，潘多克可以通过多种方式安装。
 
-#### Recommended method: Homebrew
+#### 推荐使用：Homebrew
 
-The preferred method is [Homebrew](https://brew.sh/). Homebrew is a package manager that makes it easy to install command line programs such as pandoc and makes it easy to maintain it. Make sure to [install Homebrew](https://brew.sh/), and then simply run the following command in the Terminal:
+[Homebrew](https://brew.sh/)是一个很好的安装方法，Homebrew 是一个包管理器，它可以轻松地安装命令行程序（如 pandoc），并且易于维护。 请前往该页面[安装 Homebrew](https://brew.sh/)，然后只需在终端中运行以下命令：
 
 ```bash
 $ brew install pandoc
 ```
 
-To update pandoc from time to time, use this command:
+要更新 Pandoc，请使用此命令：
 
 ```bash
 $ brew upgrade
 ```
 
-This will upgrade all installed formulae (as they are called) to the newest version.
+这将将所有已安装的公式（如调用）升级到最新版本。
 
-> Installing with Homebrew is recommended, as it is not only faster, but also more convenient.
+> 建议使用 Homebrew 安装，因为它不仅更快，而且更方便。
 
-After pandoc is set up, you may want to install `citeproc` as well, as it provides you with the ability to [cite](academic/citations.md) using Zettlr. On Windows, Citeproc is automatically installed, while on macOS you will have to install Pandoc Citeproc additionally. Simply use Homebrew for this as well:
+设置 Pandoc 后，您可能还希望安装 `citeproc`，因为它使您能够使用 Zettlr 进行[引用](academic/citations.md)。在 Windows 上，已自动安装 Citeproc，而在 macOS 上，您必须另外安装 Pandoc Citeproc：
 
 ```bash
 $ brew install pandoc-citeproc
 ```
 
-#### Install using the official installer
+#### 使用官方安装程序
 
-To install Pandoc the old way, simply head over to the [download page](https://github.com/jgm/pandoc/releases/latest) and get the macOS installer. Once it is done, pandoc should be available on your system. Try to export something. If it works, you're done!
+要以传统方式安装 Pandoc，您只需前往[下载页面](https://github.com/jgm/pandoc/releases/latest)，即可获取 macOS 安装程序。完成后，Pandoc 在您的系统上就可用了。尝试导出一些内容，如果能正常工作，就完事了！
 
 ### Linux
 
