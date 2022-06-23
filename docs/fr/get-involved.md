@@ -1,51 +1,51 @@
-# Get involved
+# Impliquez-vous
 
-Do you want to make Zettlr an even better app? That's great! Whether you are a user, want to provide a new translation, or get into developing, you've come to the right place!
+Vous voulez faire de Zettlr une application toujours meilleure ? C'est génial ! Que vous soyez utilisateur, que vous souhaitiez fournir une nouvelle traduction ou que vous vous lanciez dans le développement, vous êtes au bon endroit !
 
-## General Resources
+## Ressources
 
-Zettlr has a vibrant community helping each other all around the net. The following list contains the common places to start for any issue you might have.
+Zettlr a une communauté dynamique qui s'entraide tout autour du Net. La liste suivante contient les lieux à partir desquels vous pouvez commencer pour tout problème que vous pourriez avoir.
 
-* [Zettlr user forum](https://forum.zettlr.com) — Go here to ask general questions, discuss workflows and concepts of Zettlr and even share your custom themes!
-* [Zettlr subreddit](https://www.reddit.com/r/Zettlr) — The Zettlr subreddit is meant for the redditors in the community.
-* [The official Twitter account](https://www.twitter.com/Zettlr) — Here you can follow the updates to the app in real time. It's the only place where we regularly announce everything we do. Additionally, we engage in most discussions, so if you have questions, you can drop them here.
-* [The official Facebook page](https://fb.me/Zettlrapp) — Here you can message us, if you don't have a Twitter account. Normally, we receive notifications and answer asap, but can't promise it. We only have this page because, well — one simply has a Facebook page, nowadays 🤷‍♂️
-* [Our YouTube channel](https://www.youtube.com/c/Zettlr) — If you are more like the visual type of person, you can find some introductory videos here.
-* [The GitHub issue tracker](https://github.com/Zettlr/Zettlr/issues) — This is the core of our endeavours to make the app better and better. If you spot a bug, have a suggestion or want to propose a feature, here's the right place. Nevertheless, especially when it comes to questions regarding the user workflow or new features, **it's best to discuss your ideas on the forum or on reddit first**.
+* [Forum d'utilisateurs de Zettlr](https://forum.zettlr.com) - Venez ici pour poser des questions générales, discuter de *workflows* et des concepts de Zettlr, partager vos thèmes personnalisés…
+* [Subreddit Zettlr](https://www.reddit.com/r/Zettlr) - Le subreddit r/Zettlr pour les *redditors* de la communauté.
+* [Le compte Twitter officiel](https://www.twitter.com/Zettlr) - Vous pouvez y suivre les mises à jour de l'application en temps réel. C'est l'endroit où nous annonçons le plus régulièrement tout ce que nous faisons. De plus, nous participons activement à la plupart des discussions, donc si vous avez des questions, vous pouvez les poser sans hésitation.
+* [La page officielle de Facebook](https://fb.me/Zettlrapp) - Ici vous pouvez nous envoyer un message, si vous n'avez pas de compte Twitter. Normalement, nous recevons des notifications et répondons le plus rapidement possible, mais nous ne pouvons pas le garantir.
+* [Notre chaîne YouTube](https://www.youtube.com/c/Zettlr) - Si vous fonctionnez mieux avec de la vidéo, vous pouvez trouver quelques vidéos d'introduction ici.
+* [Le suivi des tickets (*issues*) sur GitHub](https://github.com/Zettlr/Zettlr/issues) - C'est le cœur de nos efforts pour améliorer l'application encore et toujours. Si vous repérez un bug, avez une suggestion ou souhaitez proposer une fonctionnalité, c'est le bon endroit. Néanmoins, surtout lorsqu'il s'agit de questions concernant les *workflows* des utilisateurs ou bien de nouvelles fonctionnalités, **il est préférable de discuter de vos idées sur le forum ou sur reddit en premier**.
 
-## User Contributions
+## Contribuer en tant qu'utilisateur
 
-As a user who wants a good-looking, well-working writing app, just keep your eyes open for any error the app might produce and, more importantly, tell us how to make the workflow more efficient! We can only judge for our own workflow, so to make the app better for you as well, we need to know how. Always remember: We cannot build a workflow as-is into the design but have to make concessions to other workflows, but we'll try to make features more accessible or working smoother as long as the trade-offs for the existing workflows and the new suggestion are not too hard.
+En tant qu'utilisateur désireux de disposer d'une application d'écriture à la fois belle et efficace, vous pouvez garder l'œil ouvert pour détecter toute erreur que l'application pourrait produire. Veuillez signaler les bugs en ouvrant un ticket (*issue*) sur le dépôt GitHub. De cette façon, nous sommes en mesure de répondre rapidement au rapport et de traiter directement le problème.
 
-Please report bugs by opening up issues on the GitHub repository. This way we are able to to quickly respond to the report and directly get to handle the problem.
+Vous pouvez aussi nous dire comment rendre votre flux de travail plus efficace ! Nous ne pouvons juger que de nos propres processus, donc pour améliorer l'application pour vous aussi, nous devons savoir dans quelle direction travailler. Retenez que nous ne pouvons pas intégrer un flux de travail entièrement nouveau tel quel dans la conception, nous devons faire des concessions à d'autres processus, mais nous essaierons de rendre les fonctionnalités plus accessibles ou de les faire fonctionner plus facilement tant que les compromis entre les flux de travail existants et la nouvelle suggestion ne sont pas trop difficiles.
 
-## Translating the App
+## Traduire l'application
 
-We welcome any help in translating the app in all languages of this planet. Translations are managed on our Translation Server. To translate, you'll need to create an account, which is only used as an anti-spam measure. Additionally — but only if you want to — you will be credited using your username in all generated translations.
+Toute aide à la traduction de l'application dans toutes les langues de la planète est la bienvenue. Les traductions sont gérées sur notre serveur de traduction. Pour traduire, vous devez créer un compte, qui n'est utilisé que comme mesure antispam. De plus - mais seulement si vous le souhaitez - vous serez crédité en utilisant votre nom d'utilisateur dans toutes les traductions générées.
 
-Translating is simple. Just click on any language on the main page to see the list of all identifiers and all existing translations:
+Traduire est simple. Il suffit de cliquer sur n'importe quelle langue sur la page principale pour voir la liste de tous les identifiants et de toutes les traductions existantes :
 
-![Translation Keys](img/translations_list.png)
+![Clés de traduction](img/translations_list.png)
 
-On the left side you'll see all translation IDs. They will mostly be self-explanatory. If you don't know where to start, simply have a look at the English translation and at the app. Then you'll know which translation IDs will correspond to which elements.
+Sur le côté gauche, vous verrez tous les ID de traduction. Elles seront pour la plupart explicites. Si vous ne savez pas par où commencer, jetez simplement un coup d'œil à la traduction anglaise et à l'application. Vous saurez alors à quels éléments correspondent les ID de traduction.
 
-We've implemented a user-based quality management system in the service, which consists in you being able to vote on existing translations. So even if you don't want to translate yourself, you can look through all translations and vote for the one you deem correct. Whenever somebody downloads a translation, the system will take the best-rated translation strings to ensure all translations are verified by you, our users!
+Nous avons mis en place dans le service un système de gestion de la qualité basé sur l'utilisateur, qui consiste à vous permettre de voter sur les traductions existantes. Ainsi, même si vous ne souhaitez pas traduire vous-même, vous pouvez consulter toutes les traductions et voter pour celle que vous jugez correcte. Chaque fois que quelqu'un télécharge une traduction, le système prend les chaînes de traduction les mieux notées pour s'assurer que toutes les traductions sont vérifiées par vous, nos utilisateurs !
 
-[For more information, please see the short guide to our translation service](https://translate.zettlr.com/welcome).
+[Pour plus d'informations, veuillez consulter le petit guide de notre service de traduction](https://translate.zettlr.com/welcome).
 
-## Developing
+## Contribuer au développement
 
-To start developing, simply [fork the repository](https://github.com/Zettlr/Zettlr), work on your features, bug fixes, etc. and then open pull-requests. Please remember to **only PR to the develop branch!** The master-branch is only pushed to once a new release is being drafted. So if you are developing a new feature and a new version of Zettlr is released, you can simply pull the `origin master` to be up to date again and continue writing your feature.
+Pour commencer le développement, il suffit de [créer une copie du dépôt](https://github.com/Zettlr/Zettlr), de travailler sur vos fonctionnalités, les corrections de bogues, etc. puis de soumettre une requête (*pull request, PR*). N'oubliez pas de **seulement faire une requête sur la branche de développement**. La branche `master` n'est ciblée que lorsqu'une nouvelle version est en cours de préparation. Ainsi, si vous développez une nouvelle fonctionnalité et qu'une nouvelle version de Zettlr est publiée entretemps, vous pouvez simplement récupérer `origin master` pour être à nouveau à jour et continuer à écrire votre fonctionnalité.
 
-If you are beginning to develop a feature, it also may be wise to announce that using a new issue to just let the rest know that somebody is already doing it to maximise efficiency!
+Si vous commencez à développer une fonctionnalité, il peut également être judicieux de l'annoncer en ouvrant un nouveau ticket (*issue*), vous faites savoir aux autres que quelqu'un le fait déjà pour maximiser l'efficacité !
 
-### Starting to Develop
+### Débuter le développement
 
-To set everything up, make sure to start your favourite IDE and spin up your terminal. Zettlr is based on a [NodeJS](https://nodejs.org/)-stack, so you'll need to have the current Node-Server installed on your system, and a Node Package Manager. Zettlr prefers [Yarn](https://yarnpkg.com/), but of course you can also use NPM (this will be installed alongside Node).
+Pour tout mettre en place, lancez votre IDE et votre interface en ligne de commande favorite. Zettlr est basé sur un *stack* [NodeJS](https://nodejs.org/), vous devrez donc avoir la version actuelle de Node-Server installée sur votre système, et un gestionnaire de paquets pour Node. Zettlr préfère [Yarn](https://yarnpkg.com/), mais vous pouvez bien sûr aussi utiliser NPM (qui sera installé à côté de Node).
 
-Then make sure to initialise everything.
+Assurez-vous ensuite de tout initialiser.
 
-**With Yarn**
+**Avec Yarn**
 
 ```bash
 $ git clone https://github.com/Zettlr/Zettlr.git
@@ -55,102 +55,234 @@ $ cd source
 $ yarn install
 ```
 
-**With NPM**
+La seconde `install` dans le répertoire source est nécessaire, parce que nous utilisons la structure à deux répertoires de [electron-builder](https://www.electron.build/).
 
-```bash
-$ git clone https://github.com/Zettlr/Zettlr.git
-$ cd Zettlr
-$ npm install
-$ cd source
-$ npm install
+> La commande `install` va précompiler tous les ressources pour la première fois de manière à pouvoir démarrer immédiatement l'application. Cependant, si vous changez ces ressources, vous aurez besoin de les recompiler encore pour voir les changements. Référez vous à la section sur les commandes de développement pour trouver quelles commandes vous pouvez utiliser !
+
+### Commandes de développement
+
+Cette section liste toutes les commandes disponibles utilisables pendant le développement. Elles sont définies dans `package.json` et peuvent être lancées depuis la ligne de commande en les préfixant avec `npm run` ou `yarn`, en fonction du gestionnaire de package que vous utilisez. Lancez-les depuis le dossier de base.
+
+#### `build:quick`
+
+Cette commande construit l'application localement sans la packager. Cela signifie que vous trouverez dans le dossier `release` un binaire préconstruit, en fonction de votre système d'exploitation.
+
+#### `csl:refresh`
+
+Télécharge les fichiers [Citation Style Language](https://citationstyles.org/) (CSL) avec l'application est livrée, et les place dans les dossiers `source/main/assets/csl-locales` et `source/main/assets/csl-styles` respectivement. Vous pouvez occasionnellement lancer cette commande pour récupérer les éventuelles mises à jour des répertoires distants.
+
+#### `handlebars`
+
+Recompile les [Handlebars.js](https://handlebarsjs.com/) templates et les place pré-compilés dans le dossier `source/common/assets/handlebars`.
+
+#### `lang:refresh`
+
+Télécharge kes 4 traductions par défaut de l'application depuis [Zettlr Translate](https://translate.zettlr.com/), traductions livrées par défaut avec l'application. Cela met les fichiers dans le dossier `source/common/lang`. Actuellement les langues par défaut sont : Allemand (Germany), Anglais (USA), Anglais (UK), et Français (France).
+
+#### `less`
+
+Régénère les fichier CSS depuis la source [LESS](http://lesscss.org/) et copie les feuilles de styles finales dans le dossier `source/common/assets/css`. Vous devez lancer cette commande chaque fois que vous modifiez le LESS-source de sorte que les changements soient visibles dans l'application. _Note: Pendant le développement intensif, il peut être plus simple de "watch" les fichiers LESS et de les recompiler automatiquement. Cela se fait avec la commande `watch`._
+
+#### `lint`
+
+Lance [ESLint](https://eslint.org/) avec la configuration et génère un rapport `eslint_report.htm` dans le dossier racine du projet avec les résultats. Des applications comme [Atom](https://atom.io/) ou [Visual Studio Code](https://code.visualstudio.com/) lanceront automatiquement ESLint en tâche de fond, mais si vous voulez être très prudent, soyez sûr de lancer cette commande avant de soumettre une Pull Request.
+
+#### `release:this`
+
+Cette commande est basiquement `build:quick`, mais en plus fait le package pour votre plateforme. Donc soit un package `.deb`, `.rpm`, `.dmg` ou `.exe`, en fonction de votre système d'exploitation.
+
+#### `release:app-image`
+
+Crée explicitement l'installateur [AppImage](https://appimage.org/). Cette commande compile dans les versions 32-bit et 64-bit.
+
+#### `release:linux`
+
+Crée explicitement les packages d'installation pour Linux, soit un package `.deb` et un package `.rpm`.
+
+#### `release:mac`
+
+Crée explicitement la release pour macOS. _Note: Cette commande ne marche que sur macOS._
+
+#### `release:win`
+
+Crée explicitement un installateur pour Windows. L'installateur de package est significativement plus grand que les autres installateurs, car `electron-builder` livre l'installateur avec les versions 32-bit et 64-bit de l'application. _Note: Cette commande requiert soit un système d'exploitation Windows ou une distribution Linux. Tant que les développeurs de [WINE](https://www.winehq.org/) ne feront pas le port de leur bibliothèque en 64-bit, cette commande échouera sur macOs Catalina et plus récent._
+
+#### `reveal:build`
+
+Recompile les fichiers source nécessaire pour l'exporteur pour construire les présentations [reveal.js](https://revealjs.com/). A cause de la façon dont [Pandoc](https://pandoc.org/) crée de telles péesentations, Zettlr a besoin de modifier la sortie de Pandoc, c'est pourquoi ces fichiers ont besoin d'être pré-compilés.
+
+#### `start`
+
+Cette commande fait tourner Electron et lance l'application. Vous l'utiliserez souvent pendant le développement.
+
+#### `test`
+
+Lance les tests unitaires dans le répertoire `./test`. Lancez cette commande avant toute Pull Request, étant donné que ce sera lancé à chaque fois que vous commiterez dans la PR, et de cette façon vous serez certain que vos changements ne cassent aucun tests, rendant ainsi le processus de PR plus facile.
+
+#### `test-gui`
+
+Prépare un répertoire test-directory (placé dans votre dossier `./resources`) et demande à Zettlr de se lancer avec une configuration simple modifiée. De cette façon vous pouvez tester des chose qui pourraient détruire des fichiers sans vraiment toucher vos propres fichiers.
+
+#### `watch`
+
+Lance un processus qui écoute les changements dans LESS-source. Tant que ce processus tourne, chaque changement dans un fichier LESS déclenchera un build de façon à ce que vous puissiez voir immédiatement les changements dans une application Electron en pressant `F5` pour rafraîchir l'IHM.
+
+#### `wp:dev`
+
+Compile les ressources [Vue.js](https://vuejs.org/) depuis le dossier `resources`. Demande à [Webpack](https://webpack.js.org/) de compiler en mode développement, ce qui augmente les logs et rend le debug plus facile. Merci de lancer `wp:prod` si vous voulez créer une release.
+
+#### `wp:prod`
+
+Compile les ressources Vue depuis le dossier ressources. Demande à Webpack de compiler en mode production, ce qui réduit les logs et rend les scripts générés plus rapides. Il est recommandé de lancer `wp:dev` si vous devez débuguer des fichiers Vue.
+
+### Command-Line Flags
+
+Zettlr inclue aussi des "flags" de ligne de commande qui peuvent être utilisés à la fois sur la version de développement et sur le build final. Lancez simplement l'application en passant les "flags". Pendant le développement if suffit d'utiliser `yarn start --flag` (remplacez "flag" avec le flag corerspondant).
+
+#### `--config <configFile.json>`
+
+Passez ce flag pour utiliser temporairement un autre fichier de configuration. Le fichier de configuration doit être dans le format attendu par Zettlr (voir la class ConfigProvider dans le code source), mais ça peut aussi être un stub, c'est à dire contenant seulement les options nécessaires que vous voulez utiliser. Toutes les options que Zettlr attend et qui ne sont pas dans ce "stub" seront à leur valeur par défaut. C'est très utile si vous voulez rapidement changer l'arborescence qui sera chargée par l'application, par exemple à des fins de test. La commande `test-gui` utilise le flag `--config` de façon à changer rapidement les fichiers chargés avec des fichiers sans danger avec lesquels vous pourrez jouer.
+
+> Note: Le flag attend un chemin absolu, alors soyez certain de passer un chemin absolu ! Les chemins relatifs ne pourrait pas marcher comme attendu (Valide: `--config /Users/name/Documents/custom-config.json`; Invalide: `--config ../resources/my-custom-config.json`).
+
+#### `--clear-cache`
+
+Passer ce flag pour forcer Zettlr à vider le cache FSAL. This is especially useful if you change something in the underlying architecture of the file system, as changes will not be detected without modifying the file (that is, the app will behave as if you did not add the additional properties, because it will always fall back to the cache). Also, this might help when unexpected problems occur.
+
+### Structure du projet
+
+Passons maintenant aux choses vraiment techniques : la structure du projet ! Dans la plupart des cas, la structure se conforme aux bonnes pratiques du développement d'applications électroniques. Néanmoins, l'application est très étalée, et vous aurez donc besoin de quelques conseils.
+
+Commençons par la structure des répertoires (cette liste n'est pas exhaustive ; seuls les répertoires et les fichiers sur lesquels vous travaillerez le plus sont couverts) :
+
 ```
-
-The second `install` in the source-directory is necessary, because we make use of [electron-builder](https://www.electron.build/)'s two-directories-structure.
-
-### CLI-Commands
-
-Zettlr ships with a lot of useful commands that you can make use of in your development process. Let's list all of them.
-
-> You can run any of these commands either with `npm run <command>` or `yarn <command>`, depending on your package manager. Make sure to run them from the Zettlr main-directory.
-
-* `start`: Starts the application.
-* `build:quick`: Quickly builds the app for your operating system (if supported by electron-builder) and outputs it to `/release`.
-* `release:this`: The same as `build:quick`, but the app will also be packaged (as a `.dmg`-file on macOS, a `.exe`-installer on Windows, or a Linux package).
-* `release:mac`: Explicitly build a release for macOS.
-* `release:win`: Explicitly build a release for Windows.
-* `release:linux`: Explicitly build a release for Linux.
-* `less`: Runs the LESS converter to convert the source files in `/resources/less` to the final CSS files in `source/common/assets/css`. Whenever you make changes to the styles, you should run this command.
-* `less:extract`: Extracts all CSS IDs and classes from the source files and outputs them to `/resources/css_list.md`, one per line. This is only used to generate our [Custom CSS reference list](https://docs.zettlr.com/core/custom-css/#complete-css-class-and-id-reference).
-* `handlebars`: This starts up the Handlebars precompiler to convert the templates (for dialogs and popups) into those that will be shipped with the app in the directory`/source/common/assets/tpl`. Whenever you change anything in a file in `/resources/templates`, you should run this, lest your changes won't be visible.
-* `lang:refresh`: Downloads the most recent version of the default translations `German (Germany)`, `English (United States)`, `English (United Kingdom)`, and `French (France)` from [translate.zettlr.com](https://translate.zettlr.com/) and places them into the directory `/source/common/lang`.
-* `reveal:build`: Rebuilds the template for generating revealJS-presentations.
-
-Apart from these commands, there is one "master-command" that we use to run a full release cycle of Zettlr. It resides in `/scripts/make.sh` and is a Shell-command that will run most of the aforementioned commands to generate the installers for Windows, macOS, Debian-based Linux distributions, and Fedora-based Linux distributions. Additionally, it will generate a `SHASUMS.txt`-file containing checksums of all four installers.
-
-> Attention: Currently the Make-script requires Yarn and macOS. It does not work with NPM or on any other platform. This is due to the command to generate SHA256 checksums, which differs between macOS and Linux distributions.
-
-### Project Structure
-
-Now to the real technical stuff: The project's structure! In most respects, the structure adheres to the best practices concerning Electron application development. Nevertheless, the application is _huge_, and therefore you'll need some guidance.
-
-Let's first cover the directory structure (this is a non-exhaustive list; only the folders and files you'll mostly be working on are covered):
-
-```
-Zettlr                 // The root directory
+Zettlr                 // Le répertoire racine
 |
-+ release              // Will be created when you build the app.
++ release              // Sera créé quand vous construirez l'application.
 |
-+ resources            // Contains everything for dev, but won't be shipped.
++ resources            // Contient tout pour le dev, mais ne sera pas livré.
 |  |
-|  + less              // Contains the source-files for the CSS
+|  + less              // Contient les fichiers sources pour le CSS
 |  |
-|  + templates         // Contains the dialog and popup templates.
-|
-+ scripts               // Contains dev-scripts as mentioned above.
-|
-+ source                // Contains the actual application source.
+|  + templates         // Contient les templates pour les boite de dialogue et les popups.
 |  |
-|  + common             // Commonly used files
+|  + vue                // Contient les Vue-components.
+|
++ scripts               // Contient les scripts de développement comme mentionné plus haut.
+|
++ source                // Contient le code source réel de l'application.
+|  |
+|  + common             // Fichiers communs
 |  |  |
 |  |  + assets          // CSS, Fonts, HB-runtime, images, JS, templates.
 |  |  |
-|  |  + lang            // Default languages and the i18n module.
+|  |  + lang            // Langues par défaut et module i18n (internationalisation).
 |  |  |
-|  |  + util            // Utility functions, used around the app.
+|  |  + util            // Fonctions utilitaires, utilisées à différents endroits de l'application.
 |  |  |
-|  |  + data.json       // Static data for the application.
+|  |  + data.json       // Données statiques pour l'application.
 |  |  |
-|  |  + validate.js     // The validation module
+|  |  + validate.js     // Le module de validation
 |  |  |
-|  |  + validation.json // Validation rules.
+|  |  + validation.json // Les règles de validation.
 |  |
-|  + main               // The main process files
+|  + main               // Les fichiers du process principal
 |  |  |
-|  |  + assets          // Assets for the main process
+|  |  + assets          // Ressources pour le process principal
 |  |  |
-|  |  + commands        // All commands that can be executed reside here.
+|  |  + commands        // Toutes les commandes qui peuvent être exécutées sont ici.
 |  |  |
-|  |  + providers       // Contains service providers for the app.
+|  |  + modules         // Contient les modules
+|  |  |
+|  |  + providers       // Contient les "service providers" de l'application.
 |  |
-|  + print              // Source code for the print window
+|  + print              // Code source pour la fenêtre d'impression
 |  |
-|  + quicklook          // Source code for the QuickLooks.
+|  + quicklook          // Code source pour le aperçu.
 |  |
-|  + renderer           // The main window code.
+|  + renderer           // Le code de la fenêtre principale.
 |  |  |
-|  |  + assets          // Some assets used only in the renderer process.
+|  |  + assets          // Des ressources utilisées seulement par le process de rendu
 |  |  |  |
-|  |  |  + codemirror   // Contains all CodeMirror plugins
+|  |  |  + codemirror   // Contient tous les  plugins CodeMirror
 |  |  |  |
-|  |  |  + context      // All files needed for the context menu
+|  |  |  + context      // Tous les fichiers dont a besoin le menu contextuel
 |  |  |  |
-|  |  |  + toolbar      // Contains the toolbar template.
+|  |  |  + toolbar      // Contient le template de la barre d'outil.
 |  |  |
-|  |  + dialog          // The modules for all dialogs in the app
+|  |  + dialog          // Les modules pour toutes les boites de dialogue de l'application
 |  |  |
-|  |  + util            // Utility functions solely used in the renderer.
+|  |  + util            // Fonction utilitaires seulement pour le rendu.
 |  |
-|  + main.js            // Entry point of the application.
+|  + main.js            // Point d'entrée de l'application.
 |
-+ CHANGELOG.md          // Contains a detailed list of all changes.
++ CHANGELOG.md          // Contient une liste détaillée de tous les changements.
 ```
+
+### Terminologie
+
+Un module n'est pas toujours nécessairement un module, mais les dossiers et répertoires peuvent signifier la même chose. A cause d'ambiguïté sémantiques, nous avons décider d'inclure cette section "glossaire" de sorte que les termes fréquemment utilisés dans l'écosystème de Zetllr soient bien compris.
+
+#### Dossier/Répertoire
+
+Utilisés de façon interchangeable pour indiquer des dossiers du système de fichier. 
+
+#### Sidebar / Barre latérale
+
+Se réfère à la barre latérale de gauche de l'IHM qui contient les répertoires chargés.
+
+#### Racine (dossier/fichier)
+
+Signifie un un répertoire au plus haut niveau visible dans l'application. Cela ne signifie pas une racine de tout votre système de fichier. Exemple : Alors que `/home` est un répertoire de niveau racine d'une distribution Linux, `/home/user/Zettlr` est un répertoire racine _dans le contexte de Zettlr_, s'il est chargé comme répertoire racine. Donc Tous les dossiers et fichiers à l'intérieur de ce répertoire ne sont pas des racines.
+
+#### Barre latérale d'attachement
+
+Se réfère à la barre latérale de droite de l'IHM qui contient des fichiers additionnels et la bibliographie. Nous ne sommes pas satisfaits du terme, donc si vous en avez un meilleur, veuillez nous le signaler !
+
+#### Module
+
+Alors que Zettlr suit en général la définition de modules comme vue dans [NPM](https://www.npmjs.com/get-npm), il y a aussi des "sous modules" à l'intérieur du process principal, comme le File System Abstraction Layer ou l'exporteur. Ils sont traités comme modules car ce sont des modules autonomes qui sont accédés par l'application et exposent une API que l'application utilise.
+
+#### Service Provider / Fournisseur de service
+
+Un fournisseur de service est une classe qui est instanciées durant le démarrage et qui fonctionne jusqu'à l'extinction de l'application. These providers provide functionality by attaching certain functional objects (some sort of internal API) to the `global`-object. Une exemple est le fournisseur de log provider qui peut être utilisé pour logger, par exemple `global.log.verbose('A message!')`. Un autre est la configuration, qui peut être accédée de façon similaire, par exemple `global.config.get('config.value')`.
+
+#### Commande
+
+Alors qu'une commande dans l'écosystème Zettlr signifie principale la chose que vous associez généralement avec le terme utilisé dans un contexte d'ingénierie logicielle, il y a une classe de `commands` qui est spéciale. Généralement, quand nous parlons de commandes, nous parlons d'un des commandes dans les sous répertoires de `source/main/comands`. Ces commandes sont appelées à chaque fois qu'un utilisateur effectue une action qui fait quelque chose, comme ouvrir un fichier ou sauvegarder un fichier.
+
+#### Fenêtre
+
+Dans le contexte de Zettlr, une fenêtre signifie non seulement la fenêtre ouverte par l'application, mais bien plus. En général, en raison de la structure des application Electron, une fenêtre consiste en une classe de contrôle dans le processus principal, une classe de contrôle dans les dans le process respectif qui est démarré pour chaque fenêtre, et un fichier HTML accompagnant qui est chargé dans la fenêtre. 
+
+#### Boite de dialogue
+
+Une boite de dialogue dans est une surcouche sur la fenêtre principale qui montre de l'information et peut aussi fournir des formulaires pour les paramètres, etc. Un exemple de boite de dialogue est les préférences, le gestionnaire de tag, le nuage (cloud) de tag, ou les préférences PDF.
+
+#### Popup
+
+Une popup est similaire aux boites de dialogue, mais elles ne créent pas une surcouche de pleine page, mais une fenêtre plus petite avec une flèche pointant vers l'élément de référence. Ne pas confondre avec les tooltips/info-bulles tippy.js qui ne sont pas interactifs.
+
+#### Notification
+
+Une notification est basiquement une notification à l'écran qui apparait dans le coin inférieur droit de l'application.
+
+#### Barre d'outil
+
+La barre d'outil est une collection de boutons sur le bord haut de la fenêtre principale de Zettlr.
+
+#### Editeur
+
+L'"éditeur" se référe en général à l'instance principale de CodeMirror lancée dans la fenêtre principale de Zettlr. Cela ne signifie pas que d'autres instances de CodeMirror sont ouvertes, par exemple, dans la boite de dialogue du CSS Custom, ou dans la fenêtre de l'aperçu.
+
+#### Aperçu
+
+Similaire à la fonction d'aperçu de macOS, cette plus petite fenêtre (native)qui active l'aperçu d'un fichier sans pouvoir l'éditer.
+
+#### Outils de développements
+
+Les outils de développement sont ceux que vous pouvez ouvrir dans la fenêtre de Zettlr et qui active le debug de l'IHM. Ils fonctionnent de la même façon que les devtools qui sont fournis avec les navigateurs Chrome et peuvent être ouverts qye le mode debug est activé.
+
+#### Thème
+
+Alors qu'un thème dans le contexte de Zettlr signifie la même chose que n'importe où, nous l'avons inclus ici pour souligner le fait qu'un fichier CSS supplémentaire est chargé : `geometry.css`. Ce dernier fournit la disposition géométrique et la taille des éléments, alors que le thème ne fournit généralement que la coloration.

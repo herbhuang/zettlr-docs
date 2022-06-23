@@ -20,7 +20,7 @@ Auf macOS installierst du Zettlr, indem du die `.dmg`-Datei öffnest und die App
 
 Um Zettlr zu entfernen, lösche einfach die Zettlr.app aus deinem Programmverzeichnis. Wenn du auch die Einstellungen entfernen willst, lösche das Verzeichnis `/Users/<Dein Benutzername>/Library/Application Support/Zettlr`.
 
-> Hinweis: Du kannst Zettlr auch mittels [Homebrew](https://formulae.brew.sh/cask/zettlr) installieren: `$ brew cask install zettlr`
+> Hinweis: Du kannst Zettlr auch mittels [Homebrew](https://formulae.brew.sh/cask/zettlr) installieren: `$ brew install --cask zettlr`
 
 ## Linux (Debian 8/Ubuntu 12.04/Fedora 21 oder neuer)
 
@@ -88,6 +88,6 @@ Hier sind Links zu allen Basisversionen für die verschiedenen Betriebssysteme:
 
 - Windows: [MikTeX](https://miktex.org/download)
 - macOS: [MacTex](https://www.tug.org/mactex/morepackages.html) (_Achtung: Hier gibt es auf der Seite die große als auch die kleine Version von LaTeX. Die Basisversion heißt Basic Tex!_)
-- Linux: [TeX Live](https://www.tug.org/texlive/) (mittels Paketmanager: `sudo apt install texlive-base`)
+- Linux: [TeX Live](https://www.tug.org/texlive/) (mittels Paketmanager für auf Debian basierende Distributionen: `sudo apt install texlive-xetex`)
 
 > Wenn du LaTeX später installieren willst, kannst du die Versionen auch über das Hilfe-Menü finden.

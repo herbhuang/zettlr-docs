@@ -1,51 +1,26 @@
-# Zettlr Documentation
+# Welcome!
 
-> [Documentación Zettlr en español (mantenido por ScaredCoward)](https://github.com/ScaredCoward/zettlr-docs/blob/master/Menu%20en%20ESPA%C3%91OL.md)
+This is the official documentation for the Zettlr Markdown Editor. This documentation describes the features Zettlr offers for writing text and organizing your files, as well as customizing your experience. In case you have not yet installed Zettlr, you can do so now by going to [our download page](https://www.zettlr.com/download). Zettlr is currently supported on Windows (7 or newer), macOS (10.11 or newer), and various Linux distributions. Please consult the [setup instructions](install.md) for platform-specific instructions on installing the application on your computer.
 
-Thank you for choosing Zettlr as your reliable writing companion. On these pages, we help you get started with the app to supercharge your own writing. If you haven't yet gotten your own copy of Zettlr, [head over to the download page](https://www.zettlr.com/download) and get it for your operating system!
+## How to Read this Documentation
 
-## Getting Started
+This documentation is structured with Zettlr's extensive feature set and target group in mind. This means that there are several patterns we follow in this documentation; both simple enumerations of certain features, and also extensive guides for more advanced and complex features.
 
-To see how to install Zettlr on your system, please consult the [setup instructions](install.md). It is also recommended to set up Pandoc and LaTeX right away to enable all importing and exporting functionality of Zettlr. Don't worry, it's really easy!
+This documentation is made of a few central categories. If you know exactly what you are looking for, the search bar at the top right is the right starting point for you. Otherwise, you can find the different explanations in these categories:
 
-Don't want to waste time? Head over to our [very-quick start guide "Zettlr in 5 Minutes"](5-minutes.md)! After five minutes you'll know everything you need to know.
+- The **First Steps** section contains instructions on how to set up everything necessary to start working with Zettlr. It also provides a short "getting started" guide in case you want to see what the app offers.
+- A section on **concepts** familiarizes you with a few concepts that form the basis of how Zettlr works. It is recommended to read through these documents carefully, since Markdown editors work differently than, e.g. Microsoft Word, and it will help you avoid common pitfalls.
+- The **Core** describes the central writing and file management feature sets of Zettlr: What it can do, how it can do it, and where you can customize it.
+- **Academic Tools** focuses on features that are especially useful to – but not only! – students and academics.
+- **References** contain simple enumerations on general topics (such as an explanation of all available settings or keyboard shortcuts) which serve as a quick reference for you.
 
-## Guides
+## Get Involved!
 
-Have a look at our user guides so that you can learn all workflows. The guides are not focused around features, they are focused around workflows. Here you can read about popular workflows, step by step.
+Zettlr is free and open source software, which means that its source code is publicly available, and the application comes at no cost. However, this also means that there is no paid staff behind the app – it is completely managed by the community. This means that **we actively encourage users to get involved with the app**! Depending on your skills and what you like most, there are various ways in which you can help Zettlr out:
 
-* [Use Zettlr as a note taking app](guides/guide-notes.md)
-* [Use Zettlr as a Zettelkasten system](guides/guide-zettelkasten.md)
-* [Use Zettlr as a full IDE](guides/guide-ide.md)
+- You can [translate the app](https://translate.zettlr.com/) in more languages, and improve existing ones.
+- You can [translate and improve this very documentation](https://github.com/Zettlr/zettlr-docs/) (GitHub account required).
+- You can join the community on [Reddit](https://www.reddit.com/r/Zettlr/), [Discord](https://discord.com/invite/PcfS3DM9Xj), and [GitHub Discussions](https://github.com/Zettlr/Zettlr/discussions) and help new and other users. Note that the [forum](https://forum.zettlr.com/) is deprecated. 
+- You can [tackle open issues on GitHub](https://github.com/Zettlr/Zettlr/issues) and help develop the application itself.
 
-## Core
-
-Everyone can become very quick and efficient at his or her workflow, but can you really excel without a deep knowledge about how certain features work? Shortcuts to mundane tasks and key combinations for speeding up common tasks as well as hidden features of Zettlr are explained in the rest of the documentation. Learn how to move whole paragraphs around with two clicks or how to link to websites with only one click in this detailed documentation.
-
-* [The Editor](core/editor.md)
-* [Markdown Basics](reference/markdown-basics.md)
-* [The File List](core/file-list.md)
-* [Searching](core/search.md)
-* [Exporting with Zettlr](core/export.md)
-* [Virtual Directories](core/virtual-directories.md)
-* [Custom CSS](core/custom-css.md)
-* [Localisation](core/localisation.md)
-* [The Attachment Sidebar](core/attachments.md)
-
-## Academic Tools
-
-Zettlr has been developed with academic writing in mind. Therefore, it offers a lot of powerful tools to help you write academic texts right out of the box. You can explore the possibilities of Zettlr as an academic editor by browsing this category.
-
-* [Citations](academic/citations.md)
-* [Projects](academic/projects.md)
-* [Presentations](academic/presentations.md)
-* [Pomodoro Timer](academic/pomodoro.md)
-* [Readability-Mode](academic/readability.md)
-* [Zettelkasten Methods](academic/zkn-method.md)
-* [Custom LaTeX Templates](academic/custom-templates.md)
-
-## Get involved!
-
-Currently, Zettlr is only available in a handful of languages. But according to the internet™, there are [roughly 6,500 spoken languages](https://www.infoplease.com/askeds/how-many-spoken-languages) on the world. So any help is welcome in translating the app. You can download all languages that have already been translated over at our [translation page](https://translate.zettlr.com/) and even get into into translating it yourself! **Do you want to translate the app into a language that is not offered at the page? Simply [drop us a note](mailto:info@zettlr.com), and we'll add it**!
-
-Head over to our [documentation on how to help](get-involved.md) us make the app better by translating!
+[More information on how to get involved can be found here in the documentation](get-involved.md).

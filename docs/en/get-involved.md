@@ -1,27 +1,29 @@
 # Get involved
 
-Do you want to make Zettlr an even better app? That's great! Whether you are a user, want to provide a new translation, or get into developing, you've come to the right place!
+Do you want to make Zettlr an even better app? That's great! Whether you are a user, want to provide a new translation, or get into development of the application, you've come to the right place!
 
 ## General Resources
 
 Zettlr has a vibrant community helping each other all around the net. The following list contains the common places to start for any issue you might have.
 
-* [Zettlr user forum](https://forum.zettlr.com) — Go here to ask general questions, discuss workflows and concepts of Zettlr and even share your custom themes!
-* [Zettlr subreddit](https://www.reddit.com/r/Zettlr) — The Zettlr subreddit is meant for the redditors in the community.
+* [Zettlr Discord](https://discord.com/invite/PcfS3DM9Xj) — The Zettlr Discord is a place for the Discordians (there doesn’t appear to be an official term).
+
+* [Zettlr subreddit](https://www.reddit.com/r/Zettlr) — The Zettlr subreddit is meant for the Redditors in the community.
 * [The official Twitter account](https://www.twitter.com/Zettlr) — Here you can follow the updates to the app in real time. It's the only place where we regularly announce everything we do. Additionally, we engage in most discussions, so if you have questions, you can drop them here.
-* [The official Facebook page](https://fb.me/Zettlrapp) — Here you can message us, if you don't have a Twitter account. Normally, we receive notifications and answer asap, but can't promise it. We only have this page because, well — one simply has a Facebook page, nowadays 🤷‍♂️
-* [Our YouTube channel](https://www.youtube.com/c/Zettlr) — If you are more like the visual type of person, you can find some introductory videos here.
-* [The GitHub issue tracker](https://github.com/Zettlr/Zettlr/issues) — This is the core of our endeavours to make the app better and better. If you spot a bug, have a suggestion or want to propose a feature, here's the right place. Nevertheless, especially when it comes to questions regarding the user workflow or new features, **it's best to discuss your ideas on the forum or on reddit first**.
+* [The official Facebook page](https://fb.me/Zettlrapp) — Here you can message us, if you don't have a Twitter account.
+* [Our YouTube channel](https://www.youtube.com/c/Zettlr) — If you are more the visual type, you can find some introductory videos her
+* [Zettlr user forum](https://forum.zettlr.com) — (Deprecated)
+* [The GitHub issue tracker](https://github.com/Zettlr/Zettlr/issues) — This is the core of our endeavours to make the app better and better. If you spot a bug, have a suggestion or want to propose a feature, here's the right place. Nevertheless, especially when it comes to questions regarding the user workflow or new features, **it's best to discuss your ideas on the GitHub or on Reddit first**.
 
 ## User Contributions
 
-As a user who wants a good-looking, well-working writing app, just keep your eyes open for any error the app might produce and, more importantly, tell us how to make the workflow more efficient! We can only judge for our own workflow, so to make the app better for you as well, we need to know how. Always remember: We cannot build a workflow as-is into the design but have to make concessions to other workflows, but we'll try to make features more accessible or working smoother as long as the trade-offs for the existing workflows and the new suggestion are not too hard.
+As a user who wants a good looking, well-working writing app, just keep your eyes open for any error the app might produce and, more importantly, tell us how to make the workflow more efficient! We can only judge for our own workflow, so to make the app better for you as well, we need to know how. Always remember: We cannot build a workflow as-is into the design but have to make concessions to other workflows, but we'll try to make features more accessible or working smoother as long as the trade-offs for the existing workflows and the new suggestion are not too hard.
 
 Please report bugs by opening up issues on the GitHub repository. This way we are able to to quickly respond to the report and directly get to handle the problem.
 
 ## Translating the App
 
-We welcome any help in translating the app in all languages of this planet. Translations are managed on our Translation Server. To translate, you'll need to create an account, which is only used as an anti-spam measure. Additionally — but only if you want to — you will be credited using your username in all generated translations.
+We welcome any help in translating the app in all languages of this planet. Translations are managed on our Translation Server. To translate, you'll need to create an account, which is only used as an anti-spam measure. Additionally —but only if you want to— you will be credited using your username in all generated translations.
 
 Translating is simple. Just click on any language on the main page to see the list of all identifiers and all existing translations:
 
@@ -35,95 +37,82 @@ We've implemented a user-based quality management system in the service, which c
 
 ## Developing
 
-To start developing, simply [fork the repository](https://github.com/Zettlr/Zettlr), work on your features, bug fixes, etc. and then open pull-requests. Please remember to **only PR to the develop branch!** The master-branch is only pushed to once a new release is being drafted. So if you are developing a new feature and a new version of Zettlr is released, you can simply pull the `origin master` to be up to date again and continue writing your feature.
+To start developing, simply [fork the repository](https://github.com/Zettlr/Zettlr), work on your features, bug fixes, etc. and then open pull-requests. Please remember to **only PR to the develop branch!** The master-branch is only pushed to once a new release is being drafted. So if you are developing a new feature and a new version of Zettlr is released, you can simply pull the `upstream master` to be up to date again and continue writing your feature.
 
 If you are beginning to develop a feature, it also may be wise to announce that using a new issue to just let the rest know that somebody is already doing it to maximise efficiency!
 
 ## Setting Up Your Development Environment
 
-To set everything up, make sure to start your favourite IDE and spin up your terminal. Zettlr is based on a [NodeJS](https://nodejs.org/)-stack, so you'll need to have the current Node-Server installed on your system, and a Node Package Manager. Zettlr prefers [Yarn](https://yarnpkg.com/), but of course you can also use NPM (this will be installed alongside Node).
+To set everything up, make sure to start your favourite IDE and spin up your terminal. Zettlr is based on a [NodeJS](https://nodejs.org/)-stack, so you'll need to have a current Node release installed on your system, and a Node Package Manager. Zettlr requires [Yarn](https://yarnpkg.com/).
 
-Then make sure to initialise everything.
-
-**With Yarn**
+Then make sure to initialise everything:
 
 ```bash
 $ git clone https://github.com/Zettlr/Zettlr.git
 $ cd Zettlr
-$ yarn install
-$ cd source
-$ yarn install
+$ yarn install --frozen-lockfile
 ```
 
-**With NPM**
-
-```bash
-$ git clone https://github.com/Zettlr/Zettlr.git
-$ cd Zettlr
-$ npm install
-$ cd source
-$ npm install
-```
-
-The second `install` in the source-directory is necessary, because we make use of [electron-builder](https://www.electron.build/)'s two-directories-structure.
-
-> The `install`-commands will pre-compile all assets for the first time so that you can immediately `start` the application. However, if you change these assets, you will need to recompile them again in order to see the changes. Refer to the section on development commands to find out which commands you can use!
+> We have listed a much more comprehensive setup and development guide in [the repository's README](https://github.com/Zettlr/Zettlr#readme) file. In case, the README file will be more up to date since it's closer to the source code. If any of below's commands doesn't work, please look there first, and open a PR to update this documentation page!
 
 ### Development Commands
 
-This section lists all available commands that you can use during application development. These are defined within the `package.json` and can be run from the command line by prefixing them either with `npm run` or `yarn`, depending on which package manager you use. Run them from within the base directory of the repository.
+This section lists all available commands that you can use during application development. These are defined within the `package.json` and can be run from the command line by prefixing them with `yarn`. Run them from within the base directory of the repository.
 
-#### `build:quick`
+#### `start`
 
-This command builds the app locally without packing it. This means that within the `release`-directory you will find a pre-built binary, depending on your operating system.
+Starts `electron-forge`, which will build the application and launch it in development mode. This will use the normal settings, so if you use Zettlr on the same computer in production, it will use the same configuration files as the regular application. This means: be careful when breaking things. In that case, it's better to use `test-gui`.
 
-#### `csl:refresh`
+#### `package`
 
-This downloads the [Citation Style Language](https://citationstyles.org/) (CSL) files with which the application is shipped, and places them in the `source/main/assets/csl-locales`- and `source/main/assets/csl-styles`-directories respectively. You can occasionally run this command to pull potential updates from the repositories.
+Packages the application, but not bundle it into an installer. Without any suffix, this command will package the application for your current platform. To create specific packages (may require running on the corresponding platform), the following suffixes are available:
 
-#### `handlebars`
+- `package:mac`
+- `package:win`
+- `package:win-arm`
+- `package:linux-x32`
+- `package:linux-x64`
 
-This re-compiles the [Handlebars.js](https://handlebarsjs.com/) template files and places the pre-compiled templates in the `source/common/assets/handlebars`-directory.
+The resulting application packages are stored in `./out`.
+
+#### `release:{platform}`
+
+Packages the application and then bundles it into an installer for the corresponding platform. To create such a bundle (may require running on the corresponding platform), one of the following values for `{platform}` is required:
+
+- `release:mac`
+- `release:win`
+- `release:win-arm`
+- `release:linux-x32`
+- `release:linux-x64`
+- `release:linux` (shorthand for calling `yarn release:linux-x32 && yarn release:linux-x64`)
+
+The resulting setup bundles are stored in `./release`.
+
+> Please note that, while you can `package` directly for your platform without any suffix, for creating a release specifying the platform is required as electron-builder would otherwise include the development-dependencies in the `app.asar`, resulting in a bloated application.
 
 #### `lang:refresh`
 
-This downloads the four default translations of the application from [Zettlr Translate](https://translate.zettlr.com/), with which it is shipped by default. It places the files in the `source/common/lang`-directory. Currently, the default languages are: German (Germany), English (USA), English (UK), and French (France).
+This downloads the four default translations of the application from [Zettlr Translate](https://translate.zettlr.com/), with which it is shipped by default. It places the files in the `static/lang`-directory. Currently, the default languages are: German (Germany), English (USA), English (UK), and French (France).
 
-#### `less`
+> Please note, that this command is intended for an automated workflow that runs from time to time on the repository to perform this action. This means: Do **not** commit updated files to the repository. Instead, the updated files will be downloaded whenever you `git fetch`.
 
-This re-generates the CSS files from the [LESS](http://lesscss.org/)-source and places the final stylesheets in the `source/common/assets/css`-directory. You need to run this command every time you modify the LESS-source in order to see the changes reflected in the app's appearance. _Note: During heavy development, it might be easier to watch the LESS files and automatically recompile them. You can do so by running the command `watch`._
+#### `csl:refresh`
+
+This downloads the [Citation Style Language](https://citationstyles.org/) (CSL) files with which the application is shipped, and places them in the `static/csl-locales`- and `static/csl-styles`-directories respectively.
+
+> Please note, that this command is intended for an automated workflow that runs from time to time on the repository to perform this action. This means: Do **not** commit updated files to the repository. Instead, the updated files will be downloaded whenever you `git fetch`.
 
 #### `lint`
 
-This simply runs [ESLint](https://eslint.org/) with the configuration and outputs a file `eslint_report.htm` into the base directory of the repository with the results. Apps such as [Atom](https://atom.io/) or [Visual Studio Code](https://code.visualstudio.com/) will automatically run ESLint in the background, but if you want to be extra-safe, make sure to run this command prior to submitting a Pull Request.
+This simply runs [ESLint](https://eslint.org/). Apps such as [Atom](https://atom.io/) or [Visual Studio Code](https://code.visualstudio.com/) will automatically run ESLint in the background, but if you want to be extra-safe, make sure to run this command prior to submitting a Pull Request.
 
-#### `release:this`
-
-This command is basically `build:quick`, but additionally packages it for your platform. That means, it will spit out a `.deb`, `.rpm`, `.dmg` or `.exe`-installer, depending on your operating system.
-
-#### `release:app-image`
-
-Explicitly creates [AppImage](https://appimage.org/) installer. This command compiles both 32bit and 64bit versions.
-
-#### `release:linux`
-
-Explicitly creates installer packages for Linux, that is: One `.deb`-package and one `.rpm`-package.
-
-#### `release:mac`
-
-Explicitly creates a release for macOS. _Note: This command only works on macOS._
-
-#### `release:win`
-
-Explicitly creates an installer for Windows. The installer package is significantly bigger than the other installers, as `electron-builder` ships the installer with both 32bit and 64bit versions of the app. _Note: This command requires either a Windows-based operating system or a Linux distribution. As long as the developers of [WINE](https://www.winehq.org/) do not port their library to 64 bit, this command will fail on macOS Catalina and newer._
+> This command will run automatically on each Pull Request to check your code for inconsistencies.
 
 #### `reveal:build`
 
 This re-compiles the source-files needed by the exporter for building [reveal.js](https://revealjs.com/)-presentations. Due to the nature of how [Pandoc](https://pandoc.org/) creates such presentations, Zettlr needs to modify the output by Pandoc, which is why these files need to be pre-compiled.
 
-#### `start`
-
-This command spins up Electron and runs the app. You will use this quite frequently during development.
+> Please note, that this command is intended for an automated workflow that runs from time to time on the repository to perform this action. This means: Do **not** commit updated files to the repository. Instead, the updated files will be downloaded whenever you `git fetch`.
 
 #### `test`
 
@@ -131,89 +120,114 @@ This runs the unit tests in the directory `./test`. Make sure to run this comman
 
 #### `test-gui`
 
-This prepares a test-directory (placed into your `./resources`-directory) and tells Zettlr to run with a modified simple configuration. This way you can test some things that might destroy files without actually touching your own files.
+Use this command to carefree test any changes you make to the application. This command will start the application as if you ran `yarn start`, but will provide a custom configuration and a custom directory.
 
-#### `watch`
+**The first time you start this command**, pass the `--clean`-flag to copy a bunch of test-files to your `./resources`-directory, create a `test-config.yml` in your project root, and start the application with this clean configuration. Then, you can adapt the `test-config.yml` to your liking (so that certain settings which you would otherwise _always_ set will be pre-set without you having to open the preferences).
 
-This spins up a process that watches the LESS-source for changes. As long as this process runs, every change to a LESS-file will trigger a build so that you can immediately see your changes in a running Electron-application by pressing `F5` to refresh the GUI.
+Whenever you want to reset the test directory to its initial state (or you removed the directory, or cloned the whole project anew), pass the flag `--clean` to the command in order to create or reset the directory. **This is also necessary if you changed something in `test-config.yml`**.
 
-#### `wp:dev`
+You can pass additional command-line switches such as `--clear-cache` to this command as well. They will be passed to the child process.
 
-Compiles the [Vue.js](https://vuejs.org/)-assets from the resources-directory. This tells [Webpack](https://webpack.js.org/) to compile in development mode, which increases logging and makes debugging easier. Please make sure to run `wp:prod` if you want to create a release.
+> Attention: Before first running the command, you **must** run it with the `--clean`-flag to create the directory in the first place!
 
-#### `wp:prod`
+### Directory Structure
 
-Compiles the Vue-assets from the resources-directory. This tells Webpack to compile in production mode, which decreases logging and makes the generated scripts run faster. It is recommended to run `wp:dev` in case you need to debug the Vue-files.
-
-### Project Structure
-
-Now to the real technical stuff: The project's structure! In most respects, the structure adheres to the best practices concerning Electron application development. Nevertheless, the application is _huge_, and therefore you'll need some guidance.
-
-Let's first cover the directory structure (this is a non-exhaustive list; only the folders and files you'll mostly be working on are covered):
+Zettlr is a mature app that has amassed hundreds of directories over the course of its development. Since it is hard to contribute to an application without any guidance, we have compiled a short description of the directories with how they interrelate.
 
 ```
-Zettlr                  // The root directory.
-|
-+ release               // Will be created when you build the app.
-|
-+ resources             // Contains everything for dev, but won't be shipped.
-|  |
-|  + less               // Contains the source-files for the CSS.
-|  |
-|  + templates          // Contains the dialog and popup templates.
-|  |
-|  + vue                // Contains the Vue-components.
-|
-+ scripts               // Contains dev-scripts as mentioned above.
-|
-+ source                // Contains the actual application source.
-|  |
-|  + common             // Commonly used files.
-|  |  |
-|  |  + assets          // CSS, Fonts, HB-runtime, images, JS, templates.
-|  |  |
-|  |  + lang            // Default languages and the i18n module.
-|  |  |
-|  |  + util            // Utility functions, used around the app.
-|  |  |
-|  |  + data.json       // Static data for the application.
-|  |  |
-|  |  + validate.js     // The validation module.
-|  |  |
-|  |  + validation.json // Validation rules.
-|  |
-|  + main               // The main process files.
-|  |  |
-|  |  + assets          // Assets for the main process.
-|  |  |
-|  |  + commands        // All commands that can be executed reside here.
-|  |  |
-|  |  + modules         // Contains modules.
-|  |  |
-|  |  + providers       // Contains service providers for the app.
-|  |
-|  + print              // Source code for the print window.
-|  |
-|  + quicklook          // Source code for the QuickLooks.
-|  |
-|  + renderer           // The main window code.
-|  |  |
-|  |  + assets          // Some assets used only in the renderer process.
-|  |  |  |
-|  |  |  + codemirror   // Contains all CodeMirror plugins.
-|  |  |  |
-|  |  |  + context      // All files needed for the context menu.
-|  |  |  |
-|  |  |  + toolbar      // Contains the toolbar template.
-|  |  |
-|  |  + dialog          // The modules for all dialogs in the app.
-|  |  |
-|  |  + util            // Utility functions solely used in the renderer.
-|  |
-|  + main.js            // Entry point of the application.
-|
-+ CHANGELOG.md          // Contains a detailed list of all changes.
+.
+├── resources                      # Contains resource files
+│   ├── NSIS                       # Images for the Windows installer
+│   ├── icons                      # Icons used to build the application
+│   ├── screenshots                # The screenshots used in this README file
+├── scripts                        # Scripts that are run by the CI and some YARN commands
+│   ├── assets                     # Asset files used by some scripts
+│   └── test-gui                   # Test files used by `yarn test-gui`
+├── source                         # Contains the actual source code for the app
+│   ├── app                        # Contains service providers and the boot/shutdown routines
+│   ├── common                     # Common files used by several or all renderer processes
+│   │   ├── fonts                  # Contains the font files (note: location will likely change)
+│   │   ├── img                    # Currently unused image files
+│   │   ├── less                   # Contains the themes (note: location will likely change)
+│   │   ├── modules                # Contains renderer modules
+│   │   │   ├── markdown-editor    # The central CodeMirror markdown editor
+│   │   │   ├── preload            # Electron preload files
+│   │   │   └── window-register    # Run by every renderer during setup
+│   │   ├── util                   # A collection of utility functions
+│   │   └── vue                    # Contains Vue components used by the graphical interface
+│   ├── main                       # Contains code for the main process
+│   │   ├── assets                 # Static files (note: location will likely change)
+│   │   ├── commands               # Commands that perform user-actions, run from within zettlr.ts
+│   │   └── modules                # Main process modules
+│   │       ├── document-manager   # The document manager handles all open files
+│   │       ├── export             # The exporter converts Markdown files into other formats
+│   │       ├── fsal               # The File System Abstraction Layer provides the file tree
+│   │       ├── import             # The importer converts other formats into Markdown files
+│   │       └── window-manager     # The window manager manages all application windows
+│   ├── win-about                  # Code for the About window
+│   ├── win-custom-css             # Code for the Custom CSS window
+│   ├── win-defaults               # Code for the defaults file editor
+│   ├── win-error                  # The error modal window
+│   ├── win-log-viewer             # Displays the running logs from the app
+│   ├── win-main                   # The main window
+│   ├── win-paste-image            # The modal displayed when pasting an image
+│   ├── win-preferences            # The preferences window
+│   ├── win-print                  # Code for the print and preview window
+│   ├── win-quicklook              # Code for the Quicklook windows
+│   ├── win-stats                  # Code for the general statistics window
+│   ├── win-tag-manager            # Code for the tag manager
+│   └── win-update                 # The dedicated update window
+├── static                         # Contains static files, cf. the README-file in there
+└── test                           # Unit tests
 ```
+
+### On the Distinction between Modules and Service Providers
+
+You'll notice that Zettlr contains both "modules" and "service providers". The difference between the two is simple: Service providers run in the main process and are completely autonomous while providing functionality to the app as a whole. Modules, on the other hand, provide functionality that must be triggered by user actions (e.g. the exporter and the importer).
+
+### The Application Lifecycle
+
+Whenever you run Zettlr, the following steps will be executed:
+
+0. Execute `source/main.ts`
+1. Environment check (`source/app/lifecycle.ts::bootApplication`)
+2. Boot service providers (`source/app/lifecycle.ts::bootApplication`)
+3. Boot main application (`source/main/zettlr.ts`)
+4. Load the file tree and the documents
+5. Show the main window
+
+And when you shut down the app, the following steps will run:
+
+1. Close all windows except the main window
+2. Attempt to close the main window
+3. Shutdown the main application (`source/main/zettlr.ts::shutdown`)
+4. Shutdown the service providers (`source/app/lifecycle.ts::shutdownApplication`)
+5. Exit the application
+
+During development of the app (`yarn start` and `yarn test-gui`), the following steps will run:
+
+1. Electron forge will compile the code for the main process and each renderer process separately (since these are separate processes), using TypeScript and webpack to compile and transpile.
+2. Electron forge will put that code into the directory `.webpack`, replacing the constants you can find in the "create"-methods of the window manager with the appropriate entry points.
+3. Electron forge will start a few development servers to provide hot module reloading (HMR) and then actually start the application.
+
+Whenever the app is built, the following steps will run:
+
+1. Electron forge will perform steps 1 and 2 above, but instead of running the app, it will package the resulting code into a functional app package.
+2. Electron builder will then take these pre-built packages and wrap them in a platform-specific installer (DMG-files, Windows installer, or Linux packages).
+
+Electron forge will put the packaged applications into the directory `./out` while Electron builder will put the installers into the directory `./release`.
+
+## Command-Line Switches
+
+The Zettlr binary features a few command line switches that you can make use of for different purposes.
+
+#### `--clear-cache`
+
+This will direct the File System Abstraction Layer to fully clear its cache on boot. This can be used to mitigate issues regarding changes in the code base. To ensure compatibility with any changes to the information stored in the cache, the cache is also automatically cleared when the version field in your `config.json` does not match the one in the `package.json`, which means that, as long as you do not explicitly set the `version`-field in your `test-config.yml`, the cache will always be cleared on each run when you type `yarn test-gui`.
+
+#### `--config=path`
+
+Use this switch to temporarily override the default configuration file stored in your AppData-equivalent folder. This path should be absolute. In case you need to provide a relative path, the base for resolving the path will be: either the binary's directory name (when the app is packaged), or the repository root (when the app is not packaged). If the path contains spaces, don't forget to escape it in quotes.
 
 ### Terminology
 
@@ -223,45 +237,39 @@ A module is not necessarily always a module, but directories and folders can mea
 
 Used interchangeably to denote folders on a file system. Mostly, Zettlr will try to use "directory", but folder effectively means the same.
 
+#### File Manager
+
+Refers to the left sidebar in the GUI that contains your workspaces and files.
+
 #### Sidebar
 
-Refers to the left sidebar in the GUI that contains the loaded root directories.
+Refers to the right sidebar in the GUI that contains contextual information regarding to the current file and folder.
 
-#### Root (directory/file)
+#### Workspace
 
-This means a top-level directory that is visible in the app. This does _not_ mean a root of your overall file system. Example: While `/home` is a root-level directory on a Linux installation, `/home/user/Zettlr` is a root directory _in the context of Zettlr_, if it is loaded as a root-directory. All directories and files within that directory are not roots, then.
+A workspace is a top-level directory that is visible in the app. This does _not_ mean a root of your overall file system. Example: While `/home` is a root-level directory on a Linux installation, `/home/user/Zettlr` is a root directory _in the context of Zettlr_, if it is loaded as a workspace.
 
-#### Attachment Sidebar
+#### Standalone/Root Files
 
-Refers to the right sidebar in the GUI that contains additional files and the bibliography. We are not happy with the term, so if you have a better one, please come forward!
+A standalone or root file is a Markdown or code file that is not contained within any of the loaded workspaces. As such, it will be displayed in the file manager on top of your workspaces.
+
+#### Markdown Files vs. Code Files
+
+Internally, Zettlr makes a crucial distinction between three file types: A Markdown file, a code file, and any other file. A Markdown file is denoted by its file extension, and could be `.md`, `.markdown`, or `.txt`. A "code file" is one of the few code files which are supported by Zettlr, e.g. YAML files ( `.yaml` or `.yml`) or JSON files (`.json`). Any file that has a different file extension does not count as either a Markdown file or a code file and is internally called an "other" file (formerly: attachment).
 
 #### Module
 
-While Zettlr generally follows the definition of modules as seen on [NPM](https://www.npmjs.com/get-npm), there are also "sub-modules" within the main process, such as the File System Abstraction Layer or the exporter. These are treated as modules because these are self-sustaining modules that are being accessed by the app and expose an API that the app uses.
+While Zettlr generally follows the definition of modules as seen on [NPM](https://www.npmjs.com/get-npm), there are also "sub-modules" within the main process, such as the File System Abstraction Layer or the exporter. These are treated as modules because these are self-sustaining modules that are being accessed by the app and expose an API that the app uses. Furthermore, we bundle certain functionality into modules if it is being used in more than one place.
 
 #### Service Provider
 
-A service provider is a class which is instantiated during boot and then keeps running until the app is shut down. These providers provide functionality by attaching certain functional objects (some sort of internal API) to the `global`-object. One example is the log provider which can be used for logging, e.g. `global.log.verbose('A message!')`. Another one is the configuration, which can be accessed similarly, e.g. `global.config.get('config.value')`.
+A service provider is a class which is instantiated during boot and then keeps running until the app is shut down. These providers provide functionality by attaching certain functional objects (some sort of internal API) to the `global` object. One example is the log provider which can be used for logging, e.g., `global.log.verbose('A message!')`. Another one is the configuration, which can be accessed similarly, e.g., `global.config.get('config.value')`.
+
+Some service providers also broadcast messages to all windows using the `broadcastIpcMessage` function in case their internal state has changed. Most service providers furthermore provide an API between the main process and the renderer processes so that windows can request information from them, using `ipcMain.handle` event-listeners.
 
 #### Command
 
-While a command within the Zettlr-ecosystem mainly denotes the thing you'd generally associate with the term in a software engineering context, there is one class of `commands` that is special. Mostly, if we talk about commands, we mean one of the commands in the `source/main/commands`-subdirectory. These commands are called whenever the user performs a conscious action that does something, such as opening a file, exporting, or saving the file.
-
-#### Window
-
-In the Zettlr-context, a window not only comprises a literal window that can be opened by the app, but much more. In general, due to the structure of Electron-applications, a window consists of one control class in the main process, one control class in the respective renderer process that is started for each window, and an accompanying HTML-file that is loaded into the window.
-
-#### Dialog
-
-A dialog in Zettlr is an overlay over the main window that shows information and can also provide forms for settings, etc. Example of dialogs are the preferences, the tag manager, the tag cloud, or the PDF preferences.
-
-#### Popup
-
-A popup is similar to the dialogs, only that it does not create a full-page overlay but a smaller onscreen-window with an arrow pointing to the reference element. It is not to be confused with the tippy.js-tooltips that are not interactive.
-
-#### Notification
-
-A notification primarily means the onscreen-notifications that are shown in the top-right corner of the application.
+While a command within the Zettlr ecosystem mainly denotes the thing you'd generally associate with the term in a software engineering context, there is one class of `commands` that is special. Mostly, if we talk about commands, we mean one of the commands in the `source/main/commands` subdirectory. These commands are called whenever the user performs an action that does something, such as opening a file, exporting, or saving the file.
 
 #### Toolbar
 
@@ -269,15 +277,15 @@ The toolbar is the collection of buttons on the top edge of the main Zettlr wind
 
 #### Editor
 
-The "editor" in general refers to the main instance of CodeMirror launched in the main Zettlr window. It does not mean the other CodeMirror instances that are opened, e.g., in the Custom CSS dialog, or the QuickLook windows.
+The "editor" in general refers to the main instance of CodeMirror launched in the main Zettlr window. It does not mean the other CodeMirror instances that are opened, e.g., in the assets manager, or the QuickLook windows. If we mean the latter, we specify this normally.
 
 #### QuickLook
 
-Similarly to the macOS QuickLook-feature, these are smaller (native) windows that enable you to preview a file but not edit it.
+Similarly to the macOS QuickLook-feature, these are windows that enable you to preview a file but not edit it.
 
 #### DevTools / Development Tools
 
-The development tools are the ones you can open in Zettlr windows that enable you to debug the GUI. They work the same as the devtools shipped with Chrome-browsers and can be opened when debug-mode is enabled.
+The development tools are the ones you can open in Zettlr windows that enable you to debug the GUI. They work the same as the devtools shipped with Chrome browsers and can be opened when debug mode is enabled.
 
 #### Theme
 

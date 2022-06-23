@@ -1,30 +1,31 @@
 # Zettlrからのエクスポート
 
-ファイルのエクスポートは、あなたの文書を他の人に受け渡すために重要なインターフェースとなります。エクスポート機能を使うと:
+Zettlr allows you to export into many common file formats so that you can share your work with colleagues, friends, and (hopefully!) your publisher. However, Zettlr's export works slightly different than regular exports so you might want to check what happens whenever you export a file into a different format.
 
-1. HTML形式などでファイルをプレビューし、それを印刷することができます。(`Cmd/Ctrl+P`を押して印刷すると、内部的にHTMLにエクスポートします。)
-2. WordやOpenDocumentファイルのように、他の人たちが扱えるような形式でエクスポートすることができます。
-3. 例えば(セミナー論文などの)提出用にPDFにエクスポートし、それを印刷することができます。
+> For advanced PDF exports Zettlr will attempt to use LaTeX. While you can also save files to PDF without it, installing LaTeX can be advantageous in various situations. You can see how to install LaTeX in our [guide on installing such a distribution](../installing-latex.md).
 
-## エクスポートの準備
+## ファイルのエクスポート
 
-Zettlrでのエクスポートは、すべて、フリーソフトウェアパッケージのpandocとLaTeXを使用して行われます。すべての形式のエクスポートで、変換を行うためにはpandocが必要です。LaTeXはPDFへのエクスポートにのみ必要です。
+Zettlrからのファイルのエクスポートは、単一ファイルのエクスポートとプロジェクトのエクスポートの2種類があります。単一ファイルのエクスポートはツールバーのボタンか、`Cmd/Ctrl+E`で行います。様々な形式へのエクスポートが可能です。After you choose the appropriate format, you can sometimes finetune some options for the specified exporter. You can also select whether to export to the temporary directory or the current file's directory (this setting can also be modified in the preferences).
 
-> pandocをインストールしていなくても、HTMLへのエクスポートだけは可能です。この場合、Zettlrは、内部的に`Showdown.js`を使ってファイルを解析します。しかし、このライブラリは、pandocほど多くの機能をサポートしていません。[セットアップガイド](../install.md)にしたがって、pandocとLaTeXをコンピュータにインストールしてください。
+2種類目は、[プロジェクト](../academic/projects.md)全体のファイルをエクスポートする方法です。プロジェクトのディレクトリを右クリックしてプロジェクトをエクスポートを選択します。
 
-Zettlrは、これらのパッケージを見つけるためにそれなりの努力をします。もし、アプリケーションがバイナリファイルを発見できなければ、エラーを吐きます。
+> LaTeX PDFへのエクスポート時に`file <name>.sty not found`という形式のエラーが表示されることがあります。このエラーは、不足しているLaTeXパッケージをインストールすることで解消することができます。LaTeXパッケージのインストール方法は、[このガイド](https://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages)などを参考にしてください。
 
-**これらのパッケージをインストールしたにもかかわらずZettlrのエクスポート機能が使えない場合**は、設定を確認してください。高度な設定タブの入力欄に、pandocの実行ファイルパスとXeLaTeXの実行ファイルパスを入力することができます。ここに入力して、再起動すると設定が有効になります。もし、ダメな場合は私たちにお知らせください。
+## 出力先の選択
 
-![高度な設定タブ](../img/settings_advanced.png)
+エクスポートしたファイルの保存先をZettlrに指定する必要があります。これには2つの選択肢があります。**一時ディレクトリ**に保存するか、**ファイルと同じディレクトリ**に保存するか選ぶことができますが、どちらもメリットとデメリットがあります。
 
-## エクスポートの設定
+> [設定ダイアログ](../reference/settings.md)のエクスポートタブで設定することができます。
 
-バージョン`0.17`以降で、Zettlrは要望に応じて、文書のエクスポートに関する多くの設定項目を用意しました。これらは2つのダイアログに分かれています。エクスポートに関する一般的な設定は、設定ダイアログにあります。エクスポートタブを開いてください。そこには、エクスポートをカスタマイズための2つのセクションがあります。1つ目は、結果ファイルを格納するディレクトリの設定です。
+一時ファイルにエクスポートする場合は、後でファイルを削除することを考える必要がありません。なぜなら、一時ディレクトリはコンピュータが定期的に空にしてくれるからです。エクスポート後に自動的にデフォルトアプリケーション(例えば`.docs`ファイルならWord)でファイルが開かれるので、出力結果に満足すれば「名前を付けて保存」を選択して、そのファイルを他の場所に保存することができます。
 
-- 一時ディレクトリを選択すると、Zettlrはエクスポートしたファイルを保存するための一時フォルダを作ります。一時フォルダは、どのOSでも一時的なファイルを保存するための特別なフォルダであり、ファイルが不要になり次第、抹消されるものです。エクスポートしたファイルをシステム上のどこにも保存したくない場合には、この設定が良いでしょう。一時フォルダにエクスポートする設定で、ファイルを永続的に保存したい場合は、どこか他のフォルダに明示的に保存する必要があります。
-- 現在の作業ディレクトリを選択すると、Zettlrはエクスポートしたファイルを、現在開いているディレクトリに保存します。この場合、エクスポートした文書を永続的に保存するために、一時フォルダ以外の場所に保存する必要はありません。**エクスポート機能は、確認することなくファイルを上書きすることにご注意ください。**
+Markdownファイルと同じ場所にエクスポートしたファイルがあっても気にしない場合は、現在の作業ディレクトリにファイルを保存することもできます。
 
-2つ目のセクションは、ZettlrがサポートするZettelkasten要素をどのように処理するかを設定します。Zettelkasten要素とは何かを知りたい場合は、[該当のセクション](../academic/zkn-method.md)を参照してください。ここでは、エクスポート時に、これらの要素を残すか削除するかを設定します。何故なら、多くの状況下で、これらの要素はアプリケーション内だけで有効活用されるものであり、エクスポートした文書には残したくないからです。
+> エクスポートしたファイルは、毎回確認することなく上書きされることに注意してください。If you add some text to an exported file, **always save it to another location!** It is generally a good idea never to keep files in your temporary directory if you would like to keep them.
 
-もう一つの、エクスポートに関する設定は、`PDF設定`ダイアログにあります。メニューから開くか(メニュー項目の通常の設定の下にあります)、`Cmd/Ctrl+Alt+,`のショートカットを使ってください。このダイアログではPDFのエクスポートに関する設定を行います。用紙の種類、余白、フォント、フォントサイズ、ページ番号を出力するか、出力するならどの形式かなどの多くの設定を選択することができます。ほとんどのエクスポート設定は、自己説明的で、一般的なワードプロセッサーの設定項目と類似しています。
+## エクスポートをカスタマイズする
+
+There are two general ways of customising your exports, a.k.a. change the appearance of the file. The first is to make use of defaults files. These defaults files specify how Pandoc will export your files and you can modify these to change all your exports. Please see [our documentation on defaults files](defaults-files.md) for a comprehensive guide of using these.
+
+2つめの選択肢はカスタムテンプレートです。Zettlrに内蔵されているデフォルトのテンプレートは、見た目がよく汎用性の高いものとなっています。しかし、Zettlrを使い込んでいくと、出力のレイアウトをカスタマイズしたくなるかもしれません。このドキュメンテーション内に、[カスタムテンプレートについての詳しい説明](../academic/custom-templates.md)があります。
